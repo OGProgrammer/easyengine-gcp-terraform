@@ -1,0 +1,8 @@
+version: '3'
+services:
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=your_db_host
+    ports:
+      - "8080:80"
