@@ -2,6 +2,8 @@
 
 This is a sample recipe for creating a GCP server with Terraform that will install EasyEngine.
 
+I did this talk at WP Las Vegas UG (video coming soon) and have [slides](https://docs.google.com/presentation/d/1QuO3urSd6YBVqQB8VtXwQD2gCZ4qbC-BDJWNxbVsVik/edit?usp=sharing)
+
 Goodies to extend this include DNS management with Namecheap and a proper GCP Database Instance.
 
 Feel free to uncomment them in the `domains.tf` and `databases.tf` to try it out.
